@@ -10,10 +10,12 @@ CONFIG += c++20
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    medianfilter.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    medianfilter.h
 
 FORMS += \
     mainwindow.ui
